@@ -6,11 +6,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using CCWin;
 
 namespace BMS
 {
-    public partial class FrmMain : CCSkinMain
+    public partial class FrmMain : Form
     {
         public FrmMain()
         {
