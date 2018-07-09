@@ -9,3 +9,13 @@ D:\codeSource\BMS\BMS\bin\Debug\System.Data.SQLite.dll
 D:\codeSource\BMS\BMS\bin\Debug\CSkin.xml
 D:\codeSource\BMS\BMS\obj\Debug\BMS.exe
 D:\codeSource\BMS\BMS\obj\Debug\BMS.pdb
+D:\freelancer\BMS\BMS\obj\Debug\BMS.exe
+D:\freelancer\BMS\BMS\obj\Debug\BMS.pdb
+D:\freelancer\BMS\BMS\obj\Debug\BMS.FrmMain.resources
+D:\freelancer\BMS\BMS\obj\Debug\BMS.Properties.Resources.resources
+D:\freelancer\BMS\BMS\obj\Debug\BMS.csproj.GenerateResource.Cache
+D:\freelancer\BMS\BMS\bin\Debug\BMS.exe
+D:\freelancer\BMS\BMS\bin\Debug\BMS.pdb
+D:\freelancer\BMS\BMS\bin\Debug\System.Data.SQLite.dll
+D:\freelancer\BMS\BMS\obj\Debug\BMS.BillForm.BillList.resources
+D:\freelancer\BMS\BMS\obj\Debug\BMS.BillForm.EditBill.resources

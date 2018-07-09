@@ -1,6 +1,6 @@
-﻿namespace BMS
+﻿namespace BMS.BillForm
 {
-    partial class FrmMain
+    partial class BillList
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // FrmMain
+            // BillList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(794, 488);
-            this.Name = "FrmMain";
-            this.Text = "FrmMain";
+            this.ClientSize = new System.Drawing.Size(909, 547);
+            this.Name = "BillList";
+            this.Text = "BillList";
             this.ResumeLayout(false);
 
         }

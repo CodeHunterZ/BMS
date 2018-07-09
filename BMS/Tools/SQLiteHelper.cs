@@ -20,6 +20,10 @@ namespace BMS.Tools
         private SQLiteHelper()
         {
         }
+
+        private static string connectionStr = "Data Source=MyDatabase.sqlite;Version=3;";
+
+
         /// <summary>
         /// Creates the command.
         /// </summary>
@@ -258,6 +262,7 @@ namespace BMS.Tools
             return rdr;
         }
 
+
         /// <summary>
         /// Shortcut to ExecuteNonQuery with SqlStatement and object[] param values
         /// </summary>
@@ -267,6 +272,10 @@ namespace BMS.Tools
         /// <returns></returns>
         public static int ExecuteNonQuery(string connectionString, string commandText, params object[] paramList)
         {
+            if (string.IsNullOrEmpty(connectionString))
+            {
+                connectionString = connectionStr;
+            }
             SQLiteConnection cn = new SQLiteConnection(connectionString);
             SQLiteCommand cmd = cn.CreateCommand();
             cmd.CommandText = commandText;
